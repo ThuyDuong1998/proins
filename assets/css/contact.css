@@ -1,0 +1,45 @@
+.intro_content iframe {
+    margin-bottom: 20px;
+}
+
+.contact-left input {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 15px;
+}
+
+.contact-left textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding-left: 7px;
+}
+
+.contact-left button {
+    background-color: #189eff;
+    color: white;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.contact-left button:hover {
+    border: 1px solid #189eff;
+    background-color: white;
+    color: #189eff;
+}
+
+.contact-right ul {
+    padding: 0px;
+}
+
+.contact-right ul li {
+    list-style: none;
+    margin-bottom: 7px;
+}
+
+.contact-right h5 {
+    color: #666666;
+}

@@ -1,0 +1,125 @@
+.signIn-top {
+    text-align: center;
+}
+
+.signIn-top h5 {
+    color: #666666;
+    font-weight: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.signIn-top .sign-fb {
+    background: #546ea6 url('./facebook.png') no-repeat 0 center;
+}
+
+.sign-fb {
+    color: white;
+    border: none;
+    padding-right: 10px;
+    border-radius: 12px;
+    text-indent: 25px;
+    margin-right: 20px;
+}
+
+.signIn-top .sign-gg {
+    background: #df5656 url('./googleplus.png') no-repeat 0 center;
+}
+
+.sign-gg {
+    color: white;
+    border: none;
+    padding-right: 10px;
+    border-radius: 12px;
+    text-indent: 25px;
+}
+
+.signIn-line {
+    border-bottom: 1px solid #dfdfdf;
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.signIn-line span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -15px;
+    background: #fff;
+    display: inline-block;
+    padding: 5px;
+    color: #999999;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.signIn-left h5 {
+    color: #666666;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.signIn_form {
+    padding: 30px;
+}
+
+.signIn_form-input {
+    display: block;
+    position: relative;
+}
+
+.signIn_form-input input {
+    height: 40px;
+    width: 100%;
+    padding-left: 40px;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.signIn_form-input span {
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    color: #ed1846;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.signIn_form-input i {
+    font-size: 22px;
+    color: gray;
+    display: inline-block;
+    position: absolute;
+    top: 9px;
+    left: 12px;
+}
+
+.signIn_form-input button {
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    border: 1px solid #6f6a60;
+    margin-bottom: 20px;
+}
+
+.signIn_form-input button:hover {
+    background-color: #189EFE;
+    color: white;
+    border: none;
+}
+
+.signIn_form p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.signIn_form p:hover {
+    color: #189EFE;
+}
