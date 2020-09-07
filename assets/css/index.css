@@ -60,6 +60,7 @@
     border: 0px;
     width: 75%;
     position: relative;
+    outline: none;
 }
 
 .frmSearch button {
@@ -208,6 +209,7 @@
 @media screen and (max-width: 1024px) {
     .frmSearch input[type="text"] {
         width: 65%;
+        outline: none;
     }
     .menu_between-icon a span {
         position: relative;
@@ -228,12 +230,14 @@
 @media screen and (max-width: 280px) {
     .frmSearch input[type="text"] {
         width: 50% !important;
+        outline: none;
     }
 }
 
 @media screen and (max-width: 320px) {
     .frmSearch input[type="text"] {
         width: 59%;
+        outline: none;
     }
     .cart-desk {
         width: 55% !important;
