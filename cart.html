@@ -2,14 +2,13 @@
 <html lang="en">
 
 <head>
-    <title>Đăng nhập</title>
+    <title>Giỏ hàng</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/sign_in.css">
     <link rel="stylesheet" href="./assets/css/index.css">
-    <link rel="stylesheet" href="./assets/css/error.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/cart.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -17,6 +16,7 @@
 
 <body>
     <div class="wrapper">
+        <!-- menu top desktop-->
         <div class="fluid menu-top d-none d-xl-block">
             <div class="container">
                 <div class="row">
@@ -57,6 +57,7 @@
                 </div>
             </div>
         </div>
+        <!-- menu between desktop-->
         <div class="fluid d-none menu_between d-xl-block">
             <div class="container">
                 <div class="row">
@@ -103,54 +104,6 @@
                             <i class="fas fa-bars" style="font-size: 18px;"></i>
                             <span style="font-size: 18px;"> &nbsp;DANH MỤC SẢN PHẨM</span>
                         </a>
-                        <div class="menu_hide">
-                            <ul>
-                                <li>
-                                    <img src="./assets/img/icon_1.png" alt="" width="20px;">
-                                    <a href="http://">Tất cả danh mục</a>
-                                </li>
-                                <li>
-                                    <img src="./assets/img/icon_2.png" alt="" width="20px;">
-                                    <a href="http://">Thời trang nam</a>
-                                </li>
-                                <li>
-                                    <img src="./assets/img/icon_3.png" alt="" width="20px;">
-                                    <a href="http://">Thời trang nữ</a>
-                                </li>
-                                <li>
-                                    <img src="./assets/img/icon_4.webp" alt="" width="20px;">
-                                    <a href="http://">Giày dép - túi xách</a>
-                                </li>
-                                <li>
-                                    <img src="./assets/img/icon_5.png" alt="" width="20px;">
-                                    <a href="http://">Phụ kiện công nghệ</a>
-                                </li>
-                                <li>
-                                    <img src="./assets/img/icon_6.png" alt="" width="20px;">
-                                    <a href="http://">Điện thoại - Máy tính bảng</a>
-                                </li>
-                                <li>
-                                    <img src="./assets/img/icon_7.png" alt="" width="20px;">
-                                    <a href="http://">Điện gia dụng - Điện máy</a>
-                                </li>
-                                <li>
-                                    <img src="./assets/img/icon_8.png" alt="" width="20px;">
-                                    <a href="http://">Mẹ và bé</a>
-                                </li>
-                                <li>
-                                    <img src="./assets/img/icon_9.png" alt="" width="20px;">
-                                    <a href="http://">Tivi - Máy ảnh - Game</a>
-                                </li>
-                                <li>
-                                    <img src="./assets/img/icon_10.png" alt="" width="20px;">
-                                    <a href="http://">Sức khỏe - Làm đẹp</a>
-                                </li>
-                                <li>
-                                    <img src="./assets/img/icon_11.png" alt="" width="20px;">
-                                    <a href="http://">Đồng hồ - Phụ kiện</a>
-                                </li>
-                            </ul>
-                        </div>
                     </div>
                     <div class="col-md-9">
                         <div class="menu_bottom">
@@ -217,7 +170,7 @@
                     </a>
                 </div>
                 <div class="cart-desk">
-                    <a href="./cart.html">
+                    <a href="http://">
                         <div class="menu_between-cart">
                             <i class="fas fa-shopping-bag"></i>
                             <span> Giỏ hàng</span>
@@ -227,67 +180,14 @@
                 </div>
             </div>
         </div>
+        <!-- cart content -->
         <div class="container">
-            <div class="signIn-top">
-                <h5>ĐĂNG NHẬP BẰNG</h5>
-                <button class="sign-fb">Facebook</button>
-                <button class="sign-gg">Google+</button>
-            </div>
-            <div class="signIn-line">
-                <span>HOẶC</span>
-            </div>
-            <div class="row">
-                <div class="col-md-6 signIn-left">
-                    <h5>ĐĂNG NHẬP</h5>
-                    <div class="signIn_form">
-                        <div class="signIn_form-input">
-                            <i class="fas fa-envelope"></i>
-                            <input type="email" name="" id="" placeholder="Email của bạn">
-                            <span>*</span>
-                        </div>
-                        <div class="signIn_form-input">
-                            <i class="fas fa-lock"></i>
-                            <input type="password" name="" id="" placeholder="Nhập mật khẩu">
-                            <span>*</span>
-                        </div>
-                        <div class="signIn_form-input">
-                            <button>Đăng nhập</button>
-                        </div>
-                        <p>Quên mật khẩu?</p>
-                    </div>
-                </div>
-                <div class="col-md-6 signIn-left">
-                    <h5>ĐĂNG KÝ THÀNH VIÊN MỚI</h5>
-                    <div class="signIn_form">
-                        <div class="signIn_form-input">
-                            <i class="fas fa-user"></i>
-                            <input type="email" name="" id="" placeholder="Họ">
-                            <span>*</span>
-                        </div>
-                        <div class="signIn_form-input">
-                            <i class="fas fa-user"></i>
-                            <input type="password" name="" id="" placeholder="Tên">
-                            <span>*</span>
-                        </div>
-                        <div class="signIn_form-input">
-                            <i class="fas fa-envelope"></i>
-                            <input type="email" name="" id="" placeholder="Email">
-                            <span>*</span>
-                        </div>
-                        <div class="signIn_form-input">
-                            <i class="fas fa-lock"></i>
-                            <input type="password" name="" id="" placeholder="Mật khẩu">
-                            <span>*</span>
-                        </div>
-                        <div class="signIn_form-input">
-                            <i class="fas fa-lock"></i>
-                            <input type="password" name="" id="" placeholder="Nhập lại mật khẩu">
-                            <span>*</span>
-                        </div>
-                        <div class="signIn_form-input">
-                            <button>Đăng nhập</button>
-                        </div>
-                    </div>
+            <div class="cart">
+                <h3>GIỎ HÀNG</h3>
+                <div class="cart-content">
+                    <img src="./assets/img/empty_cart.png" alt="" width="50%;">
+                    <p>Không có sản phẩm nào trong giỏ hàng của bạn</p>
+                    <a href="./index.html"><button>Tiếp tục mua hàng</button></a>
                 </div>
             </div>
         </div>
@@ -393,7 +293,6 @@
             </div>
         </div>
     </div>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
