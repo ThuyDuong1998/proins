@@ -109,12 +109,17 @@
     font-size: 14px;
     border: 1px solid #6f6a60;
     margin-bottom: 20px;
+    outline: none;
 }
 
 .signIn_form-input button:hover {
     background-color: #189EFE;
     color: white;
     border: none;
+}
+
+.signIn_form-input button:focus {
+    outline: none;
 }
 
 .signIn_form p {
