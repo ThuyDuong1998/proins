@@ -78,6 +78,11 @@
     border: 1px solid #cccccc;
     margin-bottom: 20px;
     font-size: 14px;
+    outline: none;
+}
+
+.signIn_form-input input:focus {
+    outline: none;
 }
 
 .signIn_form-input span {
